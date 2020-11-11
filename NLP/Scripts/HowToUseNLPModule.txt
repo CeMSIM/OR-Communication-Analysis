@@ -1,0 +1,21 @@
+Latest update: 11/10/2020
+by Xinwen
+
+To use the NLP python module, you need:
+1. Install python3. (3.8 recommended) Install packages: pandas, sklearn, collections, numpy, nltk and re.
+2. Network connection.
+3. A train excel chart and a test excel chart. Each chart includes text and labels.
+
+How to prepare files:
+1. Download NLP_MultilabelClassification.py, functions.py, Run_the_program.cmd, and two example excel charts.
+2. Create a folder called NLP. Under this folder, create two subfolders called Scripts and Test
+3. Put the NLP_MultilabelClassification.py, Run_the_program.cmd and functions.py in Scripts folder
+4. Put two example excel charts in Test folder
+5. Edit the two example excel charts with the text you want to analysis
+
+How to run this module:
+1. Double check the steps above. You can also change the dictionary size in NLP_MultilabelClassification.py if you want.
+2. Double click Run_the_program.cmd. Or, if you have a python IDE, run NLP_MultilabelClassification.py in the IDE directly.
+3. Wait for the program doing calculation.
+4. When you see "Press Enter to Exit...", the NLP is completed. The word accuracy, f1_score and precision are shown in the window. You can press Enter to leave.
+

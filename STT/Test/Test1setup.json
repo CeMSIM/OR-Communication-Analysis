@@ -1,0 +1,11 @@
+{
+    "LanguageCode": "en-US",
+    "Media": { 
+       "MediaFileUri": "s3://longaudiotest/Test1Audio.wav"
+    },
+    "MediaFormat": "wav",
+    "MedicalTranscriptionJobName": "Test1Job",
+    "OutputBucketName": "longaudiotest",
+    "Specialty": "PRIMARYCARE",
+    "Type": "DICTATION"
+ }
