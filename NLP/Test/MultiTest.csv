@@ -1,0 +1,24 @@
+Text,Label
+"I think we are having an airway obstruction right now. 
+The airway pressure is raising over 30 mmHg. 
+And the capnogram is showing a delayed rise.",Diagnose pneumothorax
+I'm checking the breath sounds right now.,Diagnose pneumothorax
+"The heart rate (HR) is increasing and reaching 120 Bpm. 
+The oxygen saturation (SPO2) is reaching 80%. 
+Blood pressure is still in the normal range. 
+Surgeon, we need to halt the surgery.",Diagnose pneumothorax
+"Yes. I think it is pneumothorax. I can't hear breath sounds on the left/right.
+But we don't have time for a chest ultrasound. 
+We need to do the needle decompression immediately.",Diagnose pneumothorax
+"I need PPEs and betadine solution.
+Get me a 16 gauge angiogatheter. 
+Then prepare the chest tube set. We will probably need that later.",Prepare for needle decompression
+"I'm preparing goggle, face mask, and betadine solution.
+Here are the PPEs and the solution.",Prepare for needle decompression
+Ok. The PPEs and the solution are ready.,Prepare for needle decompression
+Here is the catheter.,Prepare for needle decompression
+The catheter is ready.,Prepare for needle decompression
+The chest tube set is ready.,Prepare for needle decompression
+"The catheter is placed. I can feel the air is releasing from the lung. Anesthetist, are the vital signs improved?",Improved vital signs
+"Yes, the vital signs are improved.",Improved vital signs
+Ok. Then we don't need to insert the chest tube.,Improved vital signs

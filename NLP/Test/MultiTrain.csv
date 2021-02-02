@@ -1,0 +1,36 @@
+Text,Label
+"I think we are having an airway obstruction right now. 
+The airway pressure is raising over 30 mmHg. 
+And the capnogram is showing a delayed rise.",Diagnose pneumothorax
+Yes I'm checking the breath sound right now.,Diagnose pneumothorax
+"The heart rate (HR) is increasing and reaching 120 Bpm. 
+The oxygen saturation (SPO2) is reaching 80%. 
+Blood pressure is still in the normal range. 
+Surgeon, we need to halt the surgery.",Diagnose pneumothorax
+"Yes. I think it is pneumothorax. I can't hear breath sounds on the left/right.
+But we don't have time for a chest ultrasound. 
+We need to do the needle decompression immediately.",Diagnose pneumothorax
+"I need PPEs and betadine solution.
+Get me a 16 gauge angiogatheter. 
+Then prepare the chest tube set. We will probably need that later.",Prepare for needle decompression
+"I'm preparing goggle, face mask, and betadine solution.
+Here are the PPEs and the solution.",Prepare for needle decompression
+Ok. The PPEs and the solution are ready.,Prepare for needle decompression
+Here is the catheter.,Prepare for needle decompression
+The catheter is ready.,Prepare for needle decompression
+The chest tube set is ready.,Prepare for needle decompression
+"The catheter is placed. 
+I can feel the air is releasing from the lung. 
+Anesthetist, are the vital signs improved?",Check the vital signs again
+No. The vital signs are still in the dangerous range,Check the vital signs again
+Then we will insert a chest tube.,Check the vital signs again
+I need a 10 blade and a hemostatic forceps for incision.,Make the incision and insert the chest tube
+Here are the 10 blade and the forceps.,Make the incision and insert the chest tube
+The blade and the forceps are ready.,Make the incision and insert the chest tube
+Bring me the 32 French chest tube.,Make the incision and insert the chest tube
+Here is the 32 French chest tube. The chest tube system is also ready to use.,Make the incision and insert the chest tube
+The chest tube system is working properly.,Make the incision and insert the chest tube
+Prepare the sewing kit.,Sew the incision
+The sewing kit is ready.,Sew the incision
+"Anesthetist, are the vital signs improved?",Improved vital signs
+"Yes, the vital signs are improved.",Improved vital signs

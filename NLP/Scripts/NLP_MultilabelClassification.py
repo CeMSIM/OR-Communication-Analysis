@@ -25,14 +25,16 @@ os.chdir(cwd+'\\'+'Test')
 cwd = os.getcwd()
 
 #Load train data
-train_data = pd.read_excel (r''+cwd+'\MultiTrain.xlsx')
+#train_data = pd.read_excel (r''+cwd+'\MultiTrain.xlsx')
+train_data = pd.read_csv (r''+cwd+'\MultiTrain.csv')
 x_train_raw = train_data['Text'].tolist()
 y_train_raw = train_data['Label'].tolist()
 x_train = []
 y_train = []
 
 #Load test data
-test_data = pd.read_excel (r''+cwd+'\MultiTest.xlsx')
+#test_data = pd.read_excel (r''+cwd+'\MultiTest.xlsx')
+test_data = pd.read_csv (r''+cwd+'\MultiTest.csv')
 x_test_raw = test_data['Text'].tolist()
 y_test_raw = test_data['Label'].tolist()
 x_test = []
@@ -58,6 +60,7 @@ for i in y_test_raw:
 
 #Generate dictionary
 words_to_index = bag_of_words_model(x_train,dict_size)
+print("Dictionary: " + str(words_to_index))
 
 #bag of words for training text
 x_train_vector = []
@@ -109,7 +112,6 @@ accuracy, F1_macro, precision_macro = evaluation_scores(y_test_vector,y_val_pred
 print('Prediction accuracy: '+str(accuracy))
 print('Prediction F1 score: '+str(F1_macro))
 print('Prediction precision: '+str(precision_macro))
-
 
 #Hold the window
 input("Press Enter to Exit...")
