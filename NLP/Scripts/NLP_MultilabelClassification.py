@@ -21,12 +21,12 @@ dict_size = 100
 #navigate to test directory
 os.chdir('..')
 cwd = os.getcwd()
-os.chdir(cwd+'\\'+'Test')
+os.chdir(cwd+'/'+'Test')
 cwd = os.getcwd()
 
 #Load train data
 #train_data = pd.read_excel (r''+cwd+'\MultiTrain.xlsx')
-train_data = pd.read_csv (r''+cwd+'\MultiTrain.csv')
+train_data = pd.read_csv (r''+cwd+'/MultiTrain.csv')
 x_train_raw = train_data['Text'].tolist()
 y_train_raw = train_data['Label'].tolist()
 x_train = []
@@ -34,7 +34,7 @@ y_train = []
 
 #Load test data
 #test_data = pd.read_excel (r''+cwd+'\MultiTest.xlsx')
-test_data = pd.read_csv (r''+cwd+'\MultiTest.csv')
+test_data = pd.read_csv (r''+cwd+'/MultiTest.csv')
 x_test_raw = test_data['Text'].tolist()
 y_test_raw = test_data['Label'].tolist()
 x_test = []
